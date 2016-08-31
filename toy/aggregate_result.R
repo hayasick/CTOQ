@@ -2,7 +2,7 @@ library(ggplot2)
 library(plyr)
 library(reshape2)
 library(xtable)
-library(extrafont)
+library(grid)
 
 args <- commandArgs(trailingOnly = TRUE)
 #args <- c('result/sum.all.txt', 'test.eps', 'error')
@@ -46,7 +46,6 @@ if (plot.type == 'error') {
     theme(legend.position='none',
           panel.margin=unit(3, "pt"))
   ggsave(output, gg, width=4, height=3, scale=0.9)
-  embed_fonts(output, outfile=sprintf("%s", output))
 
 } else if (plot.type == 'time') {
   gg <- ggplot(df.s, aes(x=k, y=m.time)) +
