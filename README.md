@@ -20,6 +20,7 @@ Reproducing Figure 1.
  
 ### Usage
 ```
+cd toy
 make all
 make plot
 ```
@@ -38,6 +39,7 @@ Reproducing Tables 1 and 2.
   
 ### Usage
 ```
+cd kernel
 make all
 make table
 ```
