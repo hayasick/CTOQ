@@ -44,3 +44,7 @@ make table
 Then ``kernel_error.tex`` and ``kernel_time.tex`` will be generated.
 
 If you use matlab instead of octave, replace ``make XX`` as ``make XX BIN=matlab``.
+
+## Acknowledgment
+We thank Makoto Yamada for allowing to modify and upload his [RuLSIF codes](http://www.makotoyamada-ml.com/RuLSIF.html).
+
