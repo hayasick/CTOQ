@@ -10,16 +10,13 @@ Reproducing Figure 1.
 ### Requirements
 
  * python 2.X
- * numpy
- * cvxopt >= 1.1.7
-
-For plotting the figure, the following R packages are required.
-
+  * numpy
+  * cvxopt >= 1.1.7
  * R 
- * ggplot2
- * plyr
- * reshape2
- * extrafont
+  * ggplot2
+  * plyr
+  * reshape2
+  * grid
  
 ### Usage
 ```
@@ -35,9 +32,9 @@ Reproducing Tables 1 and 2.
 
  * octave or matlab
  * R
- * plyr
- * reshape2
- * xtable
+  * plyr
+  * reshape2
+  * xtable
   
 ### Usage
 ```
