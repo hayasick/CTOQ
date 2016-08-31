@@ -1,4 +1,5 @@
 SHELL := /bin/bash
+BIN := octave
 RES_DIR := result
 export OMP_NUM_THREADS := 1
 
@@ -37,7 +38,7 @@ $(RES_DIR)/%.res: $(RES_DIR)/
 	s=$(word 3,$(subst _, ,$*));\
 	method=$(word 4,$(subst _, ,$*));\
 	data=$(word 5,$(subst _, ,$*));\
-	octave compare.m $${n} $${k} $${s} $${method} $${data} | tail -n 1 > $@
+	$(BIN) compare.m $${n} $${k} $${s} $${method} $${data} | tail -n 1 > $@
 
 $(RES_DIR)/:
 	mkdir $@
