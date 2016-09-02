@@ -1,11 +1,10 @@
 # CTOQ
 
-Codes for reproducing the experiments of:
+This repository contains the codes for reproducing the experiments of [1].
 
-Kohei Hayashi, Yuichi Yoshida. [Minimizing Quadratic Functions in Constant Time.](http://arxiv.org/abs/1608.07179) To appear in NIPS 2016.
+[1] Kohei Hayashi, Yuichi Yoshida. [Minimizing Quadratic Functions in Constant Time.](http://arxiv.org/abs/1608.07179) To appear in NIPS 2016.
 
 ## Numerical Simulation
-Reproducing Figure 1.
 
 ### Requirements
 
@@ -24,10 +23,9 @@ cd toy
 make all
 make plot
 ```
-Then ``toy_error.eps`` will be generated.
+Then ``toy_error.eps`` will be generated, which is Figure 1 of [1].
 
 ## Kernel Methods
-Reproducing Tables 1 and 2.
 
 ### Requirements
 
@@ -43,7 +41,7 @@ cd kernel
 make all
 make table
 ```
-Then ``kernel_error.tex`` and ``kernel_time.tex`` will be generated.
+Then ``kernel_error.tex`` and ``kernel_time.tex`` will be generated, which are Tables 1 and 2.
 
 If you use matlab instead of octave, replace ``make XX`` as ``make XX BIN=matlab``.
 
