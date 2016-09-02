@@ -31,9 +31,9 @@ Then ``toy_error.eps`` will be generated, which is Figure 1 of [1].
 
  * octave or matlab
  * R
+  * xtable
   * plyr
   * reshape2
-  * xtable
   
 ### Usage
 ```
@@ -41,10 +41,10 @@ cd kernel
 make all
 make table
 ```
-Then ``kernel_error.tex`` and ``kernel_time.tex`` will be generated, which are Tables 1 and 2.
+Then ``kernel_error.tex`` and ``kernel_time.tex`` will be generated, which are Tables 1 and 2 of [1].
 
 If you use matlab instead of octave, replace ``make XX`` as ``make XX BIN=matlab``.
 
 ## Acknowledgment
-We thank Makoto Yamada for allowing to modify and upload his [RuLSIF codes](http://www.makotoyamada-ml.com/RuLSIF.html).
+I thank Makoto Yamada for allowing to modify and upload his [RuLSIF codes](http://www.makotoyamada-ml.com/RuLSIF.html).
 
